@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">first</string>
+    <string name="get_started">Get started</string>
+    <string name="get_startedD">GET STARTED</string>
+    <string name="next">NEXT</string>
+    <string name="title_text">Title text</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="default_web_client_id">781528601806-qh8hkja1v9sqvbdh0hq0nf9iep4rfm8o.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">home\n</string>
+    <string name="profile">profile</string>
+    <string name="search">search</string>
+
+</resources>
