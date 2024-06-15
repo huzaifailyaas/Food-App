@@ -29,6 +29,7 @@
         android:layout_height="60dp"
         android:backgroundTint="#59B345"
         android:text="@string/next"
+        android:textAllCaps="false"
         android:textSize="22sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
