@@ -18,15 +18,7 @@
         <activity
             android:name=".PayOutActivity"
             android:exported="false" />
-        <activity
-            android:name=".signup.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".signup.OTP"
-            android:exported="false" />
-        <activity
-            android:name=".signup.Phone"
-            android:exported="false" />
+
         <activity
             android:name=".signup.google"
             android:exported="false" />
@@ -37,11 +29,7 @@
             android:name=".main.frontpage"
             android:exported="true"
             android:windowSoftInputMode="adjustPan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".login.logjn"
@@ -54,7 +42,13 @@
             android:exported="false" />
         <activity
             android:name=".Splashscreen.splashscreen"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />
