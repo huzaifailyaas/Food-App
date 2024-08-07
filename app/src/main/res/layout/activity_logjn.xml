@@ -154,7 +154,9 @@
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="17sp"
-                android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
+                android:textStyle="bold">
+
+            </androidx.appcompat.widget.AppCompatButton>
 
             <TextView
                 android:layout_width="match_parent"

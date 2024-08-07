@@ -44,7 +44,7 @@ android {
 
 dependencies {
 
-    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
+    implementation("com.google.firebase:firebase-bom:33.0.0")
     implementation("com.google.firebase:firebase-auth")
     implementation("androidx.viewpager2:viewpager2:1.1.0")
     implementation ("com.airbnb.android:lottie:3.4.0")
@@ -62,4 +62,7 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+
+    implementation("com.google.android.gms:play-services-auth:20.0.0")
+
 }
